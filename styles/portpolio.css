@@ -61,6 +61,18 @@ nav a {
 
 }
 
+.contact-btn {
+    margin-left: 30px;
+    padding: 19px 23px 18px 58px;
+    color: #FD6E0A;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    background: #FFF8F3;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+
 .nav-title {
     color: #181818;
     font-size: 45px;
@@ -212,7 +224,7 @@ hr {
 
 .experience-title,
 .resume-item-title {
-    color:  #474747;
+    color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -221,4 +233,42 @@ hr {
 .download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer styles */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 130px;
+}
+
+.footer-column {
+    width: 50%;
+    gap: 115px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+    font-family: Open Sans;
+}
+
+.social-links a {
+    margin-right: 25px;
+}
+
+.footer-column h3, .footer-column p {
+    text-align: left;
+    max-width: 550px
 }
