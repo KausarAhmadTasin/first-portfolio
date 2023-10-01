@@ -151,7 +151,7 @@ main section {
 
 .info-title {
     color: #757575;
-    ont-size: 20px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 5px;
 
@@ -166,7 +166,8 @@ main section {
 }
 
 #what-i-do-description {
-    padding: 30px 150px;
+    padding: 10px 0px 50px;
+    margin-top: 0px;
 }
 
 /* skill container section */
