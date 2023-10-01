@@ -7,6 +7,21 @@ body {
 
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /* nav related styles */
 
 nav {
@@ -26,8 +41,6 @@ nav li {
     margin-right: 51px;
 
 }
-
-
 
 nav a {
     text-decoration: none;
@@ -66,9 +79,43 @@ nav a {
 .banner {
     padding: 30px 30px 0px 150px;
     display: flex;
+    justify-content: space-between;
 }
 
 .banner .profile-pic {
     width: 584px;
     height: 676px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+/* main section styles */
+
+/* about section styles */
+.about-section {
+    padding: 131px 156px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
 }
